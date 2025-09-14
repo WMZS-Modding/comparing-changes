@@ -1,10 +1,10 @@
 # Comparing Changes
 
-A Visual Studio Code extension that highlights changes in files by marking inserted lines with `+` and deleted lines with `-`. This extension is particularly useful for comparing file changes in a structured and syntax-highlighted way.
+A Visual Studio Code extension that highlights changes in files by marking inserted lines with `+` and deleted lines with `−`. This extension is particularly useful for comparing file changes in a structured and syntax-highlighted way.
 
 ## Features
 
-- **Syntax Highlighting**: Provides syntax highlighting for `.cfc` files, marking inserted lines with `+` and deleted lines with `-`.
+- **Syntax Highlighting**: Provides syntax highlighting for `.cfc` files, marking inserted lines with `+` and deleted lines with `−`.
 - **Custom Grammar**: Includes a TextMate grammar for `.cfc` files to tokenize and highlight changes.
 - **Language Configuration**: Supports auto-closing pairs, surrounding pairs, and comment tokens for `.cfc` files.
 
