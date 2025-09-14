@@ -32,7 +32,7 @@
     			},
     			{
       				"name": "markup.deleted.cfc",
-      				"match": "^\\-.*$"
+      				"match": "^\\−.*$"
     			}
   			]
 		}
