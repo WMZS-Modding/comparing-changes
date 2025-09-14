@@ -1,0 +1,35 @@
+{
+  "name": "comparing-changes",
+  "displayName": "Comparing Files Changes",
+  "description": "A smalll extension can show changes with \"-\" and \"+\"",
+  "version": "0.0.1",
+  "publisher": "SuperHero2010",
+  "license": "MIT",
+  "bugs": {
+  "url": "https://github.com/WMZS-Modding/comparing-changes/issues"
+  },
+  "homepage": "https://github.com/WMZS-Modding/comparing-changes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WMZS-Modding/comparing-changes.git"
+  },
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "cfc",
+      "aliases": ["CFC", "cfc"],
+      "extensions": [".cfc"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "cfc",
+      "scopeName": "source.cfc",
+      "path": "./syntaxes/cfc.tmLanguage.json"
+    }]
+  }
+}

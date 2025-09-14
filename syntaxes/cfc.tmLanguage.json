@@ -1,0 +1,41 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include":  "#changes"
+		}
+	],
+	"repository": {
+		"strings": {
+			"name": "string.quoted.double.cfc",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.cfc",
+					"match": "\\\\."
+				}
+			]
+		},
+    "changes": {
+		"patterns": [
+    			{
+      				"name": "markup.inserted.cfc",
+      				"match": "^\\+.*$"
+    			},
+    			{
+      				"name": "markup.deleted.cfc",
+      				"match": "^\\-.*$"
+    			}
+  			]
+		}
+	},
+	"scopeName": "source.cfc"
+}
